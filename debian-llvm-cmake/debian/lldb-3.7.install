@@ -1,0 +1,7 @@
+#!/usr/bin/dh-exec
+#usr/bin/lldb-${LLVM_VERSION}
+usr/lib/llvm-${LLVM_VERSION}/bin/lldb
+usr/lib/llvm-${LLVM_VERSION}/bin/lldb-mi
+usr/lib/llvm-${LLVM_VERSION}/bin/lldb-server
+usr/lib/llvm-${LLVM_VERSION}/lib/liblldb.so.${SONAME_EXT} /usr/lib/${DEB_HOST_MULTIARCH}
+#build-llvm/Release/lib/python2.7/site-packages/lldb/ /usr/lib/python2.7/dist-packages/

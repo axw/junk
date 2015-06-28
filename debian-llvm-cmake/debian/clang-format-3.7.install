@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+tools/clang/tools/clang-format/clang-format.py => usr/share/clang/vim/addons/syntax/clang-format-${LLVM_VERSION}.py
+tools/clang/tools/clang-format/clang-format-diff.py => usr/bin/clang-format-diff-${LLVM_VERSION}.py
+tools/clang/tools/clang-format/clang-format.el usr/share/emacs/site-lisp/clang-format-${LLVM_VERSION}
+usr/lib/llvm-${LLVM_VERSION}/bin/clang-format

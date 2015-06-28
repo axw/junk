@@ -1,0 +1,7 @@
+#!/usr/bin/dh-exec
+#usr/lib/llvm-${LLVM_VERSION}/lib/clang/${LLVM_VERSION}/include
+#usr/lib/clang/${LLVM_VERSION}/include/        			/usr/include/clang/${LLVM_VERSION}/
+#usr/lib/llvm-${LLVM_VERSION}/lib/clang/${LLVM_VERSION}/lib
+#usr/lib/clang/${LLVM_VERSION}/lib           			/usr/lib/clang/${LLVM_VERSION}/
+#usr/lib/llvm-${LLVM_VERSION}/lib/libprofile_rt.so
+#usr/lib/llvm-${LLVM_VERSION}/lib/libprofile_rt.a

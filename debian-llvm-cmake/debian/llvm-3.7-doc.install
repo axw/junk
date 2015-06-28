@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+docs/_build/html usr/share/doc/llvm-${LLVM_VERSION}-doc/

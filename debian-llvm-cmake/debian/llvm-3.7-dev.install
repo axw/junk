@@ -1,0 +1,23 @@
+#!/usr/bin/dh-exec
+
+#usr/lib/llvm-3.7/lib/libLLVM*.a
+#usr/lib/llvm-3.7/lib/libllvm*.a
+#usr/lib/llvm-3.7/lib/LLVM*.so
+#usr/lib/llvm-3.7/lib/libLTO.*
+usr/lib/llvm-3.7/include/llvm/      usr/include/llvm-3.7/
+usr/lib/llvm-3.7/include/llvm-c/	usr/include/llvm-c-3.7/
+cmake/modules/*.cmake               usr/share/llvm-3.7/cmake/
+
+#build-llvm/Makefile.common		/usr/lib/llvm-3.7/build/
+#build-llvm/Makefile.config		/usr/lib/llvm-3.7/build/
+#build-llvm/config.status		/usr/lib/llvm-3.7/build/
+#Makefile.rules			        /usr/lib/llvm-3.7/build/
+#configure			            /usr/lib/llvm-3.7/build/
+#autoconf/			            /usr/lib/llvm-3.7/build/
+
+utils/vim/syntax/llvm.vim     => usr/share/vim/addons/syntax/llvm-${LLVM_VERSION}.vim
+utils/vim/syntax/tablegen.vim => usr/share/vim/addons/syntax/tablegen-${LLVM_VERSION}.vim
+
+#utils/emacs/emacs.el		    usr/share/emacs/site-lisp/llvm-3.7/
+#utils/emacs/llvm-mode.el	    usr/share/emacs/site-lisp/llvm-3.7/
+#utils/emacs/tablegen-mode.el	usr/share/emacs/site-lisp/llvm-3.7/

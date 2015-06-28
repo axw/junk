@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+usr/lib/llvm-${LLVM_VERSION}/lib/libLLVM*.so.${SONAME_EXT}* /usr/lib/${DEB_HOST_MULTIARCH}
